@@ -1,2 +1,1 @@
-# omgorigami
-OMG! Origami
+![Logo](https://raw.github.com/facutk/omgorigami/logo.png)
