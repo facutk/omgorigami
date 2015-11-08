@@ -1,1 +1,1 @@
-![Logo](https://raw.github.com/facutk/omgorigami/logo.png)
+![Logo](https://raw.githubusercontent.com/facutk/omgorigami/master/logo.png)
