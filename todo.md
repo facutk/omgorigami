@@ -1,13 +1,11 @@
 ## MUST
-- [ ] Edit Title
-- [ ] Edit Footer
 - [ ] FB Icon + link
-- [ ] Add Google Analytics to site
 - [ ] Add Crane post
-- [ ] Publish to github
+- [ ] Publish to Github
 
 ## SHOULD
-- [ ] Header
+- [ ] Improve Header
+- [ ] Improve footer
 - [ ] Edit metadata
 
 ## COULD
@@ -20,6 +18,9 @@
 ## WONT
 
 ## DONE
+- [X] Edit Title
+- [X] Edit Footer
+- [X] Add Google Analytics to site
 - [X] Download favicons from current site
 - [X] Merge icons into kactus
 - [X] Google Analytics: UA-70318147-1
