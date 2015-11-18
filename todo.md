@@ -1,16 +1,25 @@
-## TODO
-- [ ] Add Google Analytics to site
-- [ ] Download favicons from current site
-- [ ] Merge icons into kactus
-- [ ] Add Crane post
-- [ ] Check jekyll i18n
-- [ ] Edit metadata
-- [ ] Header
-- [ ] Footer
+## MUST
+- [ ] Edit Title
+- [ ] Edit Footer
 - [ ] FB Icon + link
-- [ ] E-mail
+- [ ] Add Google Analytics to site
+- [ ] Add Crane post
+- [ ] Publish to github
+
+## SHOULD
+- [ ] Header
+- [ ] Edit metadata
+- 
+## COULD
 - [ ] Check jekyll collections
 - [ ] Masonry
+- [ ] E-mail
+- [ ] Check jekyll i18n
+- [ ] Create twitter
+
+## WONT
 
 ## DONE
+- [X] Download favicons from current site
+- [X] Merge icons into kactus
 - [X] Google Analytics: UA-70318147-1
