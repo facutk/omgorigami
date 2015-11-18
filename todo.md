@@ -9,7 +9,7 @@
 ## SHOULD
 - [ ] Header
 - [ ] Edit metadata
-- 
+
 ## COULD
 - [ ] Check jekyll collections
 - [ ] Masonry
