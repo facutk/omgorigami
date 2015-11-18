@@ -1,6 +1,5 @@
 ## TODO
-
-- [ ] Google Analytics
+- [ ] Add Google Analytics to site
 - [ ] Download favicons from current site
 - [ ] Merge icons into kactus
 - [ ] Add Crane post
@@ -12,3 +11,6 @@
 - [ ] E-mail
 - [ ] Check jekyll collections
 - [ ] Masonry
+
+## DONE
+- [X] Google Analytics: UA-70318147-1
