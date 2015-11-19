@@ -1,16 +1,23 @@
 ## MUST
-
-## SHOULD
 - [ ] Improve Header
 - [ ] Improve footer
+- [ ] Edit about page
+- [ ] Translate to Spanish
+- [ ] Remove Subscripte button
+- [ ] Remove Date from post
+- [ ] Change permalink: /diagram/
+
+## SHOULD
 - [ ] Edit metadata
+- [ ] Add Whatsapp share
+- [ ] Check jekyll collections
 
 ## COULD
-- [ ] Check jekyll collections
 - [ ] Masonry
 - [ ] E-mail
 - [ ] Check jekyll i18n
 - [ ] Create twitter
+- [ ] Shop
 
 ## WONT
 
