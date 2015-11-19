@@ -1,7 +1,4 @@
 ## MUST
-- [ ] FB Icon + link
-- [ ] Add Crane post
-- [ ] Publish to Github
 
 ## SHOULD
 - [ ] Improve Header
@@ -18,6 +15,9 @@
 ## WONT
 
 ## DONE
+- [X] FB Icon + link
+- [X] Add Crane post
+- [X] Publish to Github
 - [X] Edit Title
 - [X] Edit Footer
 - [X] Add Google Analytics to site
