@@ -18,6 +18,7 @@
 - [ ] Check jekyll i18n
 - [ ] Create twitter
 - [ ] Shop
+- [ ] Prev Next links: https://gist.github.com/budparr/3e637e575471401d01ec
 
 ## WONT
 
