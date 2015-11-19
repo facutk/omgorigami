@@ -1,0 +1,43 @@
+name: OMG! Origami
+description: Art Love Patience
+meta_description: "Your New Jekyll Site, Blogging about stuffs"
+aboutPage: true
+
+markdown: redcarpet
+highlighter: pygments
+
+host: '0.0.0.0'
+gems: [jekyll-paginate]
+paginate: 20
+baseurl: /
+domain_name: 'http://home.facu.tk'
+google_analytics: 'UA-70318147-1'
+disqus: false
+disqus_shortname: 'facutk'
+
+# Details for the RSS feed generator
+url:            'http://home.facu.tk:8000'
+author:         'Your Name'
+authorTwitter:  'YourTwitterUsername'
+
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
