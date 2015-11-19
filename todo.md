@@ -1,4 +1,5 @@
 ## MUST
+- [ ] Showcase: http://jekyllthemes.io/theme/22990694/solid-jekyll
 - [ ] Improve Header
 - [ ] Improve footer
 - [ ] Edit about page
