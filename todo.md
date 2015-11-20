@@ -1,5 +1,6 @@
 ## MUST
 - [ ] Showcase: http://jekyllthemes.io/theme/22990694/solid-jekyll
+- [ ] Carrousel: http://etsy.com
 - [ ] Improve Header
 - [ ] Improve footer
 - [ ] Edit about page
