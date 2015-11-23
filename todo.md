@@ -1,21 +1,21 @@
 ## MUST
+- [ ] Remove Date from post
+- [ ] Edit about page
+- [ ] Translate to Spanish
+- [ ] Remove Subscripte button
+
+## SHOULD
+- [ ] Masonry
+- [ ] Edit metadata
+- [ ] Add Whatsapp share
+- [ ] Check jekyll collections
+- [ ] Change permalink: /diagram/
 - [ ] Showcase: http://jekyllthemes.io/theme/22990694/solid-jekyll
 - [ ] Carrousel: http://etsy.com
 - [ ] Improve Header
 - [ ] Improve footer
-- [ ] Edit about page
-- [ ] Translate to Spanish
-- [ ] Remove Subscripte button
-- [ ] Remove Date from post
-- [ ] Change permalink: /diagram/
-
-## SHOULD
-- [ ] Edit metadata
-- [ ] Add Whatsapp share
-- [ ] Check jekyll collections
 
 ## COULD
-- [ ] Masonry
 - [ ] E-mail
 - [ ] Check jekyll i18n
 - [ ] Create twitter
