@@ -38,6 +38,8 @@
 - [ ] Spinner
 - [ ] Spinner v2
 - [ ] Estrella Modular
+- [ ] Iris
+- [ ] Flor Servilleta
 - [ ] Mariposa
 - [ ] Mariposa v2
 - [ ] Grulla Aleteadora
