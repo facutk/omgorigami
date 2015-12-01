@@ -24,6 +24,28 @@
 
 ## WONT
 
+## MODELS
+- [ ] Grulla
+- [ ] Estrella
+- [ ] Bypiramide
+- [ ] Bypiramide v2
+- [ ] Flexagon
+- [ ] Anillo Mette
+- [ ] Modulo Cubico
+- [ ] Modulo Pentagonal
+- [ ] Orbe
+- [ ] Sonobe
+- [ ] Spinner
+- [ ] Spinner v2
+- [ ] Estrella Modular
+- [ ] Mariposa
+- [ ] Mariposa v2
+- [ ] Grulla Aleteadora
+- [ ] Ardilla
+- [ ] Dragon
+- [ ] Aguila
+- [ ] Perro
+
 ## DONE
 - [X] FB Icon + link
 - [X] Add Crane post
