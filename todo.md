@@ -38,6 +38,7 @@
 - [ ] Spinner
 - [ ] Spinner v2
 - [ ] Estrella Modular
+- [ ] PHiZZ Ball
 - [ ] Iris
 - [ ] Flor Servilleta
 - [ ] Mariposa
