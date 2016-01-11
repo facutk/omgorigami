@@ -1,15 +1,12 @@
 ## MUST
-- [ ] Remove Date from post
 - [ ] Edit about page
-- [ ] Translate to Spanish
-- [ ] Remove Subscripte button
 
 ## SHOULD
 - [ ] Masonry
+- [ ] Bootstrap grid
 - [ ] Edit metadata
 - [ ] Add Whatsapp share
 - [ ] Check jekyll collections
-- [ ] Change permalink: /diagram/
 - [ ] Showcase: http://jekyllthemes.io/theme/22990694/solid-jekyll
 - [ ] Carrousel: http://etsy.com
 - [ ] Improve Header
@@ -21,6 +18,7 @@
 - [ ] Create twitter
 - [ ] Shop
 - [ ] Prev Next links: https://gist.github.com/budparr/3e637e575471401d01ec
+- [ ] Change permalink: /diagram/
 
 ## WONT
 
@@ -41,15 +39,18 @@
 - [ ] PHiZZ Ball
 - [ ] Iris
 - [ ] Flor Servilleta
-- [ ] Mariposa
 - [ ] Mariposa v2
 - [ ] Grulla Aleteadora
 - [ ] Ardilla
 - [ ] Dragon
 - [ ] Aguila
 - [ ] Perro
+- [X] Mariposa
 
 ## DONE
+- [X] Remove Date from post
+- [X] Translate to Spanish
+- [X] Remove Subscripte button
 - [X] FB Icon + link
 - [X] Add Crane post
 - [X] Publish to Github
