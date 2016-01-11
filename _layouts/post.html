@@ -1,63 +1,36 @@
 ---
 layout: default
-archive: true
 ---
 
-<article class="post">
-    <header>
-        <h1>{{ page.title }}</h1>
-        <h2 class="headline">Instrucciones</h2>
-        <img src="{{ site.baseurl }}{{ page.folder }}/{{ page.front }}"/>
-    </header>
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <span class="post-date"></span>
+  <img src="{{ site.baseurl }}{{ site.models }}{{ page.folder }}{{ page.thumbnail }}" alt="{{ page.title }}">
 
-    <section id="post-body">
-        {{content}}
-    </section>
+  {{ content }}
 
-    <ul id="post-list">
-        {% for step in page.steps %}
-            <li>
-                {{ step.description }}
-                <img src="{{ site.baseurl }}{{ page.folder }}/{{ step.img }}"/>
-            </li>
-        {% endfor %}
-    </ul>
+  <h3>Instrucciones</h3>
+  <ul id="post-list">
+      {% for step in page.steps %}
+          <li>
+              {{ step.description }}
+              <img src="{{ site.baseurl }}{{ site.models }}{{ page.folder }}{{ step.img }}" alt="{{ step.description }}"/>
+          </li>
+      {% endfor %}
+  </ul>
 
-</article>
+</div>
 
-<footer id="post-meta" class="clearfix">
-    <a href="http://twitter.com/{{ site.authorTwitter }}">
-        <img class="avatar" src="{{ site.baseurl }}assets/images/avatar.png">
-        <div>
-            <span class="dark">{{ site.author }}</span>
-            <span>{{ site.description }}</span>
-        </div>
-    </a>
+<div class="pagination">
+  {% if page.next %}
+    <a class="pagination-item older" href="{{ page.next.url }}">{{ page.next.title }}</a>
+  {% else %}
+    <span class="pagination-item older">-</span>
+  {% endif %}
 
-    <section id="sharing">
-        {% include share.html %}
-    </section>
-</footer>
-
-<!-- Disqus comments -->
-{% if site.disqus %}
-    <div class="archive readmore">
-        <h3>Comments</h3>
-        {% include disqus.html %}
-    </div>
-{% endif %}
-
-<!-- Archive post list -->
-{% if page.archive %}
-    <ul id="post-list" class="archive readmore">
-        <h3>Read more</h3>
-        {% for post in site.posts %}
-            <li>
-                <a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}">{{ post.title }}<aside class="dates">{{ post.date | date:"%b %d" }}</aside></a>
-            </li>
-        {% endfor %}
-    </ul>
-{% endif %}
-
-
-
+  {% if page.previous %}
+      <a class="pagination-item newer" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+  {% else %}
+    <span class="pagination-item newer">-</span>
+  {% endif %}
+</div>

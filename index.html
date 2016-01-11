@@ -1,6 +1,19 @@
 ---
-profile: true
+layout: default
+title: Home
 ---
+<div class="posts">
+  {% for post in site.posts %}
+  <div class="post">
+    <h1 class="post-title">
+        <div class="post-card">
+          <a href="{{ post.url }}">
+            <img src="{{ site.baseurl }}{{ site.models }}{{ post.folder }}{{ post.thumbnail }}" alt="{{ post.title }}">
+            <h2><span>{{ post.title }}</span></h2>
+          </a>
+        </div>
+    </h1>
 
-{% include post-list.html %}
-{% include footer.html %}
+  </div>
+  {% endfor %}
+</div>
